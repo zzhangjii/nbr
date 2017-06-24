@@ -14,4 +14,5 @@ def _jupyter_nbextension_paths():
     }]
 
 def load_jupyter_server_extension(nbapp):
+    nbapp.log.info("my module enabled!"),
     setup_handlers(nbapp.web_app)
