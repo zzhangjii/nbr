@@ -10,7 +10,7 @@ def _jupyter_nbextension_paths():
         "section": "notebook",
         "dest": "nbresuse",
         "src": "static",
-        "require": "nbresuse/main"
+        "require": "nbresuse/mainmainmain"
     }]
 
 def load_jupyter_server_extension(nbapp):
