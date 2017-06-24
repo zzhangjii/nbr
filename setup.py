@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="nbr",
+    name="nbresuse",
     version='0.1.0',
     url="https://github.com/yuvipanda/nbresuse",
     author="Yuvi Panda",
@@ -11,5 +11,5 @@ setuptools.setup(
         'psutil',
         'notebook',
     ],
-    package_data={'nbr': ['static/*']},
+    package_data={'nbresuse': ['static/*']},
 )
